@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "http://zhanglixuan0720.github.io/learn-codespace",
+  "homepage": "http://lxzhang.me/learn-codespace",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://zhanglixuan0720.github.io/learn-codespace'",
+    "build-gh": "parcel build --public-url 'https://lxzhang.me/learn-codespace'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
